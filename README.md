@@ -8,4 +8,6 @@ Tutto il codice presente in questo repository viene prodotto **durante le ore di
 *  Scambi di idee e collaborazioni tra studenti.
 *  Sessioni di brainstorming collettivo.
 
-Per questo motivo, i file possono presentare **errori, imprecisioni, correzioni o margini di miglioramento**. Questo spazio non va inteso come una raccolta di soluzioni perfette; ogni errore è un'opportunità di crescita.
+Per questo motivo, i file possono presentare **errori, imprecisioni, correzioni o margini di miglioramento**. Questo spazio non va inteso come una raccolta di soluzioni perfette. Ricorda: ogni errore è un'opportunità di crescita!
+
+
