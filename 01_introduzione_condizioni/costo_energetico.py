@@ -1,4 +1,4 @@
-'''
+"""
 CONSEGNA:
 Un sistema di riscaldamento si attiva quando la temperatura media di tre stanze è inferiore a un valore impostato.
 Il costo energetico è di 20 € all’ora.
@@ -26,7 +26,7 @@ PASSAGGI:
     - stampa il costo_totale con il 25% in più
 -altrimenti
     -stampa "riscaldamento spento"
-'''
+"""
 #impostare la variabile costo_energetico = 20
 costo_energetico = 20
 

@@ -1,4 +1,4 @@
-'''
+"""
 Dati tre bastoncini, è possibile formare un triangolo solo se ogni lato è minore della somma degli altri due.
 Scrivi un programma che riceva tre lunghezze e determini se è possibile costruire un triangolo, stampando "Si" o "No".
 
@@ -14,7 +14,7 @@ Passaggi:
     stampo "Si"
 altrimenti stampo "No"
 
-'''
+"""
 #Chiedo all'utente di inserire le tre lunghezze
 lato_a = float(input("Inserisci la lunghezza del 1° lato: "))
 lato_b = float(input("Inserisci la lunghezza del 2° lato: "))

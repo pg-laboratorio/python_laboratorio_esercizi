@@ -1,4 +1,4 @@
-'''
+"""
 Consegna:
     In una scuola, si vuole scrivere un programma per calcolare la media dei voti di comportamento di una classe.
     Dopo aver inserito il numero di studenti della classe, si vuole calcolare e mostrare la media.
@@ -17,7 +17,7 @@ pasaggi:
         #chiedere quano ha preso
         #aggiornare il valore della somma dei voti
 
-'''
+"""
 #inizializzare il somma voti
 somma_voti=0
 #chiedere input

@@ -1,4 +1,4 @@
-'''
+"""
 Un cinema vuole calcolare gli incassi della giornata. Scrivi un programma che: Chieda quanti spettacoli ci sono stati oggi. Per ogni spettacolo, chieda quanti biglietti sono stati venduti e il prezzo di ogni biglietto. Calcoli e stampi l'incasso totale della giornata.
 
 
@@ -19,7 +19,7 @@ avviamo il ciclo for che per ogni spettacolo:
    chiediamo il prezzo del biglietto per ogni film (prezzo_biglietto)
     calcoliamo l'incasso_tot
 stampiamo l'incasso_tot
-'''
+"""
 # settiamo l'incasso_tot = 0
 incasso_tot = 0
 # chiediamo in input quanti film sono stati riprodotti (numero_film)

@@ -1,4 +1,4 @@
-'''
+"""
 Progetto:
 
 PASSAGGI RISOLUTIVI
@@ -6,7 +6,7 @@ PASSAGGI RISOLUTIVI
 2. Usare title() per mettere l'iniziale maiuscola a ogni parola.
 3. Usare replace() per eliminare gli spazi.
 4. Concatenare il "#" all'inizio.
-'''
+"""
 # Input dell'utente
 frase = input("Inserisci la frase per il tuo post: ")
 

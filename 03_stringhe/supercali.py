@@ -1,4 +1,4 @@
-'''
+"""
 CONSEGNA
 Data la stringa "supercalifragilistichespiralidoso":
 Estrai le prime 5 lettere.
@@ -20,7 +20,7 @@ PASSAGGI:
 - sostituire le lettere
 - mandare in output la parola modificata
 
-'''
+"""
 # settare la parola
 parola = "supercalifragilistichespiralidoso"
 # estrarre le prime 5 lettere dalla parola

@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO
 Consegna:
 Un negozio applica uno sconto in base all’importo totale di un acquisto.
@@ -27,7 +27,7 @@ passaggi:
 
 - mandare in output la cifra finale da pagare ( importo_finale )
 
-'''
+"""
 #chiedere quanto è l'importo totale ( importo_totale )
 importo_totale = float(input("qual'è l'importo totale " ))
 

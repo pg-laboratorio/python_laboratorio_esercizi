@@ -1,4 +1,4 @@
-'''
+"""
 Progetto
 Consegna:
 Un amministratore di sistema sta configurando un accesso sicuro.
@@ -23,7 +23,7 @@ Passaggi:
     mandiamo in output accessoConsentito
 - altrimenti
     mandiamo in output accesso_negato
-'''
+"""
 
 # - settiamo le variabili LIVELLO_ACCESSO = 5
 LIVELLO_ACCESSO = 5

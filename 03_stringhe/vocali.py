@@ -1,4 +1,4 @@
-'''
+"""
 Scrivi un programma che: Chieda una frase all’utente. Conti quante vocali sono presenti. Stampi: "La frase contiene [X] vocali”.
 
 PROGETTO
@@ -16,7 +16,7 @@ PASSAGGI:
 - Chiedo una frase all'utente
 - ....
 - Stampo il conteggio_vocali
-'''
+"""
 # Imposto conteggio_vocali
 conteggio_vocali = 0
 # Chiedo una frase all'utente

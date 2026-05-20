@@ -1,4 +1,4 @@
-'''
+"""
 Progetto:
 
 PASSAGGI RISOLUTIVI:
@@ -6,7 +6,7 @@ PASSAGGI RISOLUTIVI:
 2. Misurare la lunghezza con len().
 3. Usare un if-else per controllare se supera i 50 caratteri.
 4. Calcolare i caratteri in eccesso se necessario.
-'''
+"""
 # Input della bio
 biografia = input("Scrivi la tua nuova biografia (max 50 caratteri): ")
 

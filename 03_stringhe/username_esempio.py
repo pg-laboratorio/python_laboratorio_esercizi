@@ -1,4 +1,4 @@
-'''
+"""
 CONSEGNA
 Definire lo username per l'utente di un servizio Web.
 Lo username dell'utente è costruito concatenando le prime tre lettere del cognome, le prime tre del nome e le ultime due cifre della data di nascita.
@@ -17,7 +17,7 @@ PASSAGGI:
 - prendo le ultime due cifre della data di nascita
 - l'username lo trasformo in minuscolo
 - stampo l'username completo
-'''
+"""
 #chiedo all'utente di inserire il nome, cognome e data di nascita
 nome = input("Inserisci il tuo nome: ")
 cognome = input("Inserisci il tuo cognome: ")

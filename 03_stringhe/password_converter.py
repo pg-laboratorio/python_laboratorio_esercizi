@@ -1,4 +1,4 @@
-'''
+"""
 CONSEGNA:
 Crea un programma che generi una password così composta:
 Chiedi all’utente una parola preferita.
@@ -18,7 +18,7 @@ PASSAGGI:
 - Chiedo all'utente la parola preferita
 - Modifico i caratteri
 - Mando in output la nuova password
-'''
+"""
 # Chiedo all'utente la parola preferita
 password = input("Inserisci la tua parola preferita: ") #alberi
 

@@ -1,4 +1,4 @@
-'''
+"""
 Scrivi un programma che chieda all'utente il proprio numero di carta di credito
 o di telefono (sotto forma di stringa).
 Il programma deve nascondere tutte le cifre tranne le ultime 4, sostituendole
@@ -25,7 +25,7 @@ passaggi:
 
 - stampo il numero mascherato
 
-'''
+"""
 # chiedere all'utente il numero di telefono o della carta di credito (numero)
 numero = input("qual'è il tuo numero: ")
 # contare i numeri dati dall'utente tranne gli ultimi 4 len(numero-4) (parte_mascherata)

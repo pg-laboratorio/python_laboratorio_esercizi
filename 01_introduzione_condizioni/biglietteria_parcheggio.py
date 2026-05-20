@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO
 CONSEGNA:
 Sapendo che in un parcheggio la prima ora costa 2.50 €
@@ -23,7 +23,7 @@ PASSAGGI RISOLUTIVI:
 - altrimenti
     il prezzo sarà 2.5 + 1.5 * (numero_ore-1)
 - mando in output il prezzo_tot
-'''
+"""
 # - settiamo le variabili costanti PREZZOPRIMAORA=2.5 e PREZZOORA=1.5
 PREZZO_PRIMAORA = 2.5
 PREZZO_ORA = 1.5

@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO:
 OBIETTIVO:
 Un utente può prelevare denaro da un bancomat virtuale, ma non può superare il saldo disponibile.
@@ -9,7 +9,7 @@ L'utente inserisce l'importo che vuole prelevare.
 Se il saldo è sufficiente, il prelievo viene effettuato e il saldo aggiornato viene mostrato.
 Se il saldo è insufficiente, il sistema avvisa l'utente e chiede un nuovo importo.
 Il ciclo continua finché il saldo si azzera.
-'''
+"""
 # Il conto parte con un saldo di 200 €.
 saldo = 200
 

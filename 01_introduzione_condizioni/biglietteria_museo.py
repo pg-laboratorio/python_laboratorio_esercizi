@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO:
 CONSEGNA:
 Il sistema gestionale del museo d'arte contemporanea della nostra città ha bisogno di aiuto.
@@ -20,7 +20,7 @@ PASSAGGI:
 - chiediamo in input il numeroPersone
 - calcoliamo il prezzoTotale = numeroPersone * PREZZO
 - mandiamo in ouput il prezzoTotale
-'''
+"""
 # - settiamo la variabile PREZZO = 10
 PREZZO = 10
 # - chiediamo in input il numeroPersone

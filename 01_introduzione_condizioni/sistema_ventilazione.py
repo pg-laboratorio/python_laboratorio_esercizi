@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO
 CONSEGNA:
 Quando la media di tre valori in input
@@ -25,7 +25,7 @@ PASSAGGI RISOLUTIVI:
 altrimenti:
     stampo spento
 
-'''
+"""
 #acquisisco in input le tre 4 variabili
 stanza_1 = float(input("inserisci la temperatura della stanza: "))
 stanza_2 = float(input("inserisci la temperatura della stanza: "))

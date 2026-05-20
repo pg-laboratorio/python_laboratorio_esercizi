@@ -1,4 +1,4 @@
-'''
+"""
 PROGETTO
 CONSEGNA
 Un distributore automatico ha una capacità massima di 50 caffè.
@@ -33,7 +33,7 @@ PASSAGGI
         errore, troppa richiesta di caffe
         stampo i caffe restanti
 spengo il sistema per mancanza di caffe
-'''
+"""
 
 #Imposto la cpienza della macchinetta a 50 caffe
 caffe_restanti = 50

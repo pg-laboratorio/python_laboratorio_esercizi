@@ -1,4 +1,4 @@
-'''
+"""
 Scrivi un programma che chieda all'utente una parola
 o una frase e poi chieda di inserire una singola lettera
 Il programma deve contare quante volte quella specifica lettera compare nella parola/frase
@@ -19,7 +19,7 @@ PASSAGGI:
     se la lettera da contare corrisponde alla lettera nella frase
         incremeto il numero lettere di 1
 - Stampiamo il numero di lettere contate
-'''
+"""
 # Settiamo le variabili
 numero_lettera = 0
 

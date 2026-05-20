@@ -1,4 +1,4 @@
-'''
+"""
 CONSEGNA:
     L'obiettivo del programma è quello di sviluppare un software per la gestione automatizzata delle prenotazioni di una sala cinematografica con una capienza massima di 20 posti. Il sistema deve operare attraverso un ciclo principale di vendita che consenta acquisti multipli fino all'esaurimento della disponibilità o alla chiusura manuale del servizio. Per ogni transazione, l'utente specificherà il numero di biglietti desiderati, attivando una validazione dei dati: in caso di richiesta superiore ai posti disponibili, il software dovrà segnalare l'insufficienza e indicare il residuo esatto; qualora venisse inserito un valore nullo o negativo, il sistema dovrà notificare l'errore e richiedere nuovamente l'inserimento.
     È prevista inoltre una funzione di chiusura forzata dedicata all'operatore, il quale può interrompere il ciclo in qualsiasi momento inserendo il codice speciale -1, simulando così la chiusura immediata della cassa. Al termine della sessione — sia essa avvenuta per esaurimento posti o per intervento manuale — il programma deve generare un riepilogo delle statistiche finali, comunicando il totale dei biglietti venduti e il numero di posti rimasti vacanti.
@@ -24,7 +24,7 @@ PROGETTO:
             Se l'utente inserisce un numero negativo o zero, deve segnalare l'errore e richiedere l'input .
         Chiusura Forzata:
             Se l'operatore inserisce un codice segreto (es. -1), il ciclo si interrompe immediatamente anche se ci sono ancora posti (simulando la chiusura della cassa).Statistiche Finali: Alla fine, mostra il totale dei biglietti venduti e quanti posti sono rimasti vuoti
-'''
+"""
 #settar variabili iniziali
 posti_rimasti=20
 posti_venduti=0
