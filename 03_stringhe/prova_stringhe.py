@@ -41,6 +41,10 @@ if "Mario" in frase:
 if "Luigi" in frase:
     print("Trovato!")
 
+# con ciclo for passo in rassegna i caratteri della frase
+for i in frase:
+    print("\n {i}")
+
 
 
 
