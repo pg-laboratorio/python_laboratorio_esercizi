@@ -24,7 +24,6 @@ Sviluppare un programma per la simulazione del lancio di dadi da gioco. La logic
 
 * **Codice sorgente:** [Vedi la soluzione](./simulatore_dadi.py)
 
-
 ---
 
 ### 4. Sasso Carta Forbice
@@ -33,3 +32,33 @@ Realizzare il classico gioco "Sasso, Carta, Forbice" contro il computer, struttu
 * **Codice sorgente:** [Vedi la soluzione](./sasso_carta_forbice.py)
 
 ---
+### 5. Convertitore Valuta
+Scrivi una funzione chiamata converti_euro_in_dollari che riceve come parametro un importo in euro e restituisce (tramite return) l'importo convertito in dollari (usa un tasso di cambio fisso, es. 1.08). Il programma principale deve chiedere l'importo all'utente, invocare la funzione e solo alla fine stampare a schermo il risultato.
+
+* **Codice sorgente:** [Vedi la soluzione](./converti_valuta.py)
+
+---
+
+### 6. calcolatore_spedizione.py
+Crea una funzione chiamata calcola_spedizione che accetta tre parametri: peso_pacco, destinazione (stringa) e urgente (booleano). Imposta i valori di default in modo che la destinazione standard sia "Italia" e urgente sia False. La funzione deve calcolare il costo base in base al peso (es. 1 euro al kg). Se la destinazione non è "Italia", aggiungi 10 euro. Se urgente è True, raddoppia il costo totale.
+
+* **Codice sorgente:** [Vedi la soluzione](./calcolatore_spedizione.py)
+
+---
+### 7. gioco_punteggio.py
+Definisci una variabile globale chiamata punteggio e impostala a 0. Crea una funzione chiamata aggiungi_punti che riceve un parametro numerico e tenta di sommarlo al punteggio. Crea una seconda funzione chiamata azzera_punteggio. Mostra come le variabili definite dentro le funzioni siano isolate rispetto all'esterno.
+
+* **Codice sorgente:** [Vedi la soluzione](./gioco_punteggio.py)
+
+
+---
+### 8. validatore_profilo.py
+Testo: Crea un sistema di validazione per la registrazione di un utente composto da tre funzioni distinte:
+
+valida_username(username): restituisce True se l'username è lungo almeno 5 caratteri.
+
+valida_password(password): restituisce True se la password contiene almeno un numero.
+
+crea_profilo(username, password): questa funzione deve invocare le due funzioni precedenti. Se entrambe sono valide, stampa "Profilo creato con successo", altrimenti stampa "Dati non validi".
+
+* **Codice sorgente:** [Vedi la soluzione](./validatore_profilo.py)
