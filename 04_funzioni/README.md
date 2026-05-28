@@ -32,27 +32,27 @@ Realizzare il classico gioco "Sasso, Carta, Forbice" contro il computer, struttu
 * **Codice sorgente:** [Vedi la soluzione](./sasso_carta_forbice.py)
 
 ---
-### 5. Convertitore Valuta
+### 5. Convertitore Valuta (print vs return)
 Scrivi una funzione chiamata converti_euro_in_dollari che riceve come parametro un importo in euro e restituisce (tramite return) l'importo convertito in dollari (usa un tasso di cambio fisso, es. 1.08). Il programma principale deve chiedere l'importo all'utente, invocare la funzione e solo alla fine stampare a schermo il risultato.
 
 * **Codice sorgente:** [Vedi la soluzione](./converti_valuta.py)
 
 ---
 
-### 6. calcolatore_spedizione.py
+### 6. Calcolatore Spedizione (parametri e valori di default)
 Crea una funzione chiamata calcola_spedizione che accetta tre parametri: peso_pacco, destinazione (stringa) e urgente (booleano). Imposta i valori di default in modo che la destinazione standard sia "Italia" e urgente sia False. La funzione deve calcolare il costo base in base al peso (es. 1 euro al kg). Se la destinazione non è "Italia", aggiungi 10 euro. Se urgente è True, raddoppia il costo totale.
 
 * **Codice sorgente:** [Vedi la soluzione](./calcolatore_spedizione.py)
 
 ---
-### 7. gioco_punteggio.py
+### 7. Gioco Punteggio (scope variabili)
 Definisci una variabile globale chiamata punteggio e impostala a 0. Crea una funzione chiamata aggiungi_punti che riceve un parametro numerico e tenta di sommarlo al punteggio. Crea una seconda funzione chiamata azzera_punteggio. Mostra come le variabili definite dentro le funzioni siano isolate rispetto all'esterno.
 
 * **Codice sorgente:** [Vedi la soluzione](./gioco_punteggio.py)
 
 
 ---
-### 8. validatore_profilo.py
+### 8. Validatore Profilo (fuznioni modularui con retituzione True e False)
 Testo: Crea un sistema di validazione per la registrazione di un utente composto da tre funzioni distinte:
 
 valida_username(username): restituisce True se l'username è lungo almeno 5 caratteri.
