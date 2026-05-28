@@ -79,7 +79,7 @@ cerca_contatto(rubrica, nome): Riceve il dizionario e il nome da cercare. Verifi
 
 mostra_menu(): Stampa a schermo le opzioni disponibili (1. Mostra, 2. Aggiungi/Modifica, 3. Cerca, 4. Esci).
 
-app(): La funzione principale che inizializza la rubrica con alcuni contatti predefiniti, gestisce il ciclo continuo dell'applicazione (while), raccoglie gli input e invoca le funzioni corrette.
+app_rubrica(): La funzione principale che inizializza la rubrica con alcuni contatti predefiniti, gestisce il ciclo continuo dell'applicazione (while), raccoglie gli input e invoca le funzioni corrette.
 
 * **Codice sorgente:** [Vedi la soluzione](./rubrica_telefonica.py)
 

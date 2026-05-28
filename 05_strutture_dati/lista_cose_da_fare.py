@@ -1,4 +1,4 @@
-# 1. FUNZIONI DI GESTIONE DATI (LISTE)
+# FUNZIONI DI GESTIONE DATI (LISTE)
 
 def mostra_lista(lista_task):
     """
@@ -53,7 +53,7 @@ def completa_impegno(lista_task, impegno_fatto):
         print(f" Impossibile rimuovere: '{impegno_fatto}' non è in lista.")
 
 
-# 2. FUNZIONI DI INTERFACCIA (MENU E APP)
+# FUNZIONI DI INTERFACCIA (MENU E APP)
 
 def mostra_menu():
     """
