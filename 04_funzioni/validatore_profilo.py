@@ -42,10 +42,10 @@ def crea_profilo(username, password):
 
     # Controllo finale basato sui valori booleani restituiti
     if username_valido and password_valida:
-        print("\n✅ Profilo creato con successo!")
+        print("\n Profilo creato con successo!")
         return True
     else:
-        print("\n❌ Dati non validi! Riprova.")
+        print("\n Dati non validi! Riprova.")
         return False
 
 
