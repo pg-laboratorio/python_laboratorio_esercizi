@@ -41,21 +41,6 @@ Hai un dizionario di voti. Scrivi una funzione `voto_studente(dizionario, nome)`
 
 * Codice sorgente: [Vedi la soluzione](https://github.com/pg-laboratorio/python_laboratorio_esercizi/blob/main/06_gestione_eccezioni/lettura_dizionario.py)
 
----
-
-### 6. Try / Except / Else / Finally
-Scrivi una funzione `apri_file(nome)` che prova ad aprire un file di testo e ne stampa il contenuto. Usa `else` per stampare "Lettura completata" e `finally` per stampare sempre "Operazione terminata", indipendentemente dall'esito.
-
-* Codice sorgente: [Vedi la soluzione](https://github.com/pg-laboratorio/python_laboratorio_esercizi/blob/main/06_gestione_eccezioni/apri_file.py)
-
----
-
-### 7. Validazione con Raise
-Scrivi una funzione `imposta_eta(eta)` che accetta un'età come parametro. Se il valore non è un numero intero positivo o supera un limite ragionevole, solleva manualmente un `ValueError` con un messaggio chiaro. Testa la funzione con un blocco `try/except`.
-
-* Codice sorgente: [Vedi la soluzione](https://github.com/pg-laboratorio/python_laboratorio_esercizi/blob/main/06_gestione_eccezioni/validazione_raise.py)
-
----
 
 ## Concetti Chiave
 
@@ -65,7 +50,6 @@ Scrivi una funzione `imposta_eta(eta)` che accetta un'età come parametro. Se il
 | `except` | Cosa fare se si verifica un determinato errore |
 | `else` | Eseguito solo se il blocco `try` non ha sollevato errori |
 | `finally` | Eseguito sempre, con o senza errore |
-| `raise` | Solleva manualmente un'eccezione |
 
 ### Eccezioni più comuni
 
