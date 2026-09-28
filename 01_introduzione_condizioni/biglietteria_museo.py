@@ -1,5 +1,5 @@
 """
-PROGETTO:
+PROGETTO
 CONSEGNA:
 Il sistema gestionale del museo d'arte contemporanea della nostra città ha bisogno di aiuto.
 Gli serve un programma che, dato il numero di persone del gruppo che svolge la
@@ -7,25 +7,30 @@ visita, calcoli in automatico il prezzo complessivo.
 Considera che il prezzo di un biglietto è un fisso di 10€.
 
 DATI INPUT:
-- Numero di persone (numeroPersone)
+- Numero di persone (numero_persone)
 
 DATI OUTPUT:
-- Prezzo complessivo biglietto (prezzoTotale)
+- Prezzo complessivo (prezzo_totale)
 
 ALTRE VARIABILI:
-- Prezzo COSTANTE di 10€ (PREZZO) #nb: i nomi delle costanti sono in maiuscolo
+- COSTANTE prezzo di un biglietto = 10€ (PREZZO_BIGLIETTO)
+  NB: i nomi delle costanti si scrivono in MAIUSCOLO
 
-PASSAGGI:
-- settiamo la variabile PREZZO = 10
-- chiediamo in input il numeroPersone
-- calcoliamo il prezzoTotale = numeroPersone * PREZZO
-- mandiamo in ouput il prezzoTotale
+PASSAGGI RISOLUTIVI:
+- impostiamo la costante PREZZO_BIGLIETTO = 10
+- chiediamo in input numero_persone
+- calcoliamo prezzo_totale = numero_persone * PREZZO_BIGLIETTO
+- mandiamo in output prezzo_totale
 """
-# - settiamo la variabile PREZZO = 10
-PREZZO = 10
-# - chiediamo in input il numeroPersone
-numeroPersone = int(input("Inserisci il numero di persone: ")) # Nb: il tipo di dato in input è sempre una stringa, devo fare il casting con int()
-# - calcoliamo il prezzoTotale = numeroPersone * PREZZO
-prezzoTotale = numeroPersone * PREZZO
-# - mandiamo in ouput il prezzoTotale
-print(f"Il prezzo totale è {prezzoTotale} €")
+# - impostiamo la costante PREZZO_BIGLIETTO = 10
+PREZZO_BIGLIETTO = 10
+
+# - chiediamo in input numero_persone
+# NB: input() restituisce SEMPRE una stringa, quindi devo convertirla con int()
+numero_persone = int(input("Inserisci il numero di persone: "))
+
+# - calcoliamo prezzo_totale = numero_persone * PREZZO_BIGLIETTO
+prezzo_totale = numero_persone * PREZZO_BIGLIETTO
+
+# - mandiamo in output prezzo_totale
+print(f"Il prezzo totale è {prezzo_totale} €")
