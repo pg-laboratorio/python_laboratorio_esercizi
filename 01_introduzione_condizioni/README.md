@@ -35,7 +35,7 @@ Un amministratore di sistema sta configurando un accesso sicuro. Solo gli utenti
 |---|---|
 | 8 | Accesso consentito |
 | 6 | Accesso consentito |
-| 5 | Accesso negato ("superiore a 5" esclude il 5) |
+| ⚠️ 5 | Accesso negato ("superiore a 5" esclude il 5) |
 
 * **Codice sorgente:** [Vedi la soluzione](./accesso_sistema.py)
 
@@ -49,8 +49,8 @@ Sapendo che in un parcheggio la prima ora costa 2.50 € mentre tutte le success
 | Input (ore) | Output atteso |
 |---|---|
 | 3 | 5.50 € |
-| 1 | 2.50 € |
-| 0 | 2.50 € (si paga comunque la prima ora) |
+| ⚠️ 1 | 2.50 € |
+| ⚠️ 0 | 2.50 € (si paga comunque la prima ora) |
 
 * **Codice sorgente:** [Vedi la soluzione](./biglietteria_parcheggio.py)
 
@@ -66,7 +66,7 @@ Il sistema di ventilazione di un edificio si accende quando la media dei valori 
 |---|---|---|
 | 2 | 1, 1, 1 | media 1.00 → Sistema acceso |
 | 2 | 3, 4, 5 | media 4.00 → Sistema spento |
-| 2 | 1, 2, 3 | media 2.00 → Sistema spento (la media non è *inferiore* al limite) |
+| ⚠️ 2 | 1, 2, 3 | media 2.00 → Sistema spento (la media non è *inferiore* al limite) |
 
 * **Codice sorgente:** [Vedi la soluzione](./sistema_ventilazione.py)
 
@@ -82,8 +82,8 @@ Un negozio applica uno sconto in base all'importo totale di un acquisto. Se l'im
 | 80 | 80.00 € (nessuno sconto) |
 | 150 | 135.00 € (sconto 10%) |
 | 250 | 212.50 € (sconto 15%) |
-| 100 | 100.00 € (nessuno sconto) |
-| 200 | 180.00 € (sconto 10%, non 15%) |
+| ⚠️ 100 | 100.00 € (nessuno sconto) |
+| ⚠️ 200 | 180.00 € (sconto 10%, non 15%) |
 
 * **Codice sorgente:** [Vedi la soluzione](./calcolo_sconti.py)
 
@@ -98,7 +98,7 @@ Dati tre bastoncini, è possibile formare un triangolo solo se ogni lato è mino
 |---|---|
 | 3, 4, 5 | Sì |
 | 1, 1, 5 | No |
-| 1, 2, 3 | No (i bastoncini si "appiattiscono" su una linea) |
+| ⚠️ 1, 2, 3 | No (i bastoncini si "appiattiscono" su una linea) |
 
 * **Codice sorgente:** [Vedi la soluzione](./il_triangolo.py)
 
@@ -114,6 +114,6 @@ Un sistema di riscaldamento si attiva quando la temperatura media di tre stanze 
 | 20 | 18, 18, 18 | 3 | 60.00 € |
 | 20 | 14, 14, 14 | 3 | 75.00 € (extra consumo) |
 | 20 | 21, 21, 21 | 3 | Riscaldamento spento, 0.00 € |
-| 20 | 15, 15, 15 | 3 | 75.00 € ("almeno 5°C" include il 5) |
+| ⚠️ 20 | 15, 15, 15 | 3 | 75.00 € ("almeno 5°C" include il 5) |
 
 * **Codice sorgente:** [Vedi la soluzione](./costo_energetico.py)
