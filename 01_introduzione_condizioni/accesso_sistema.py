@@ -1,39 +1,38 @@
 """
-Progetto
-Consegna:
+PROGETTO
+CONSEGNA:
 Un amministratore di sistema sta configurando un accesso sicuro.
-
 Solo gli utenti con un livello di sicurezza superiore a 5 possono accedere al server critico.
-
 Il programma chiede il livello dell'utente e decide se concedere l'accesso.
 
-Dati input:
-livello dell'utente (livello_utente)
+DATI INPUT:
+- Livello dell'utente (livello_utente)
 
-Dati output:
-accesso consentito o negato
+DATI OUTPUT:
+- Messaggio "Accesso consentito" oppure "Accesso negato"
 
-altre veriabili:
-COSTANTE: livello sicureza accesso = 5
+ALTRE VARIABILI:
+- COSTANTE livello di sicurezza richiesto = 5 (LIVELLO_ACCESSO)
 
-Passaggi:
-- settiamo le variabili LIVELLO_ACCESSO = 5
-- chiediamo il livello dell'utente
-- se livello_utente > 5 allora
-    mandiamo in output accessoConsentito
+PASSAGGI RISOLUTIVI:
+- impostiamo la costante LIVELLO_ACCESSO = 5
+- chiediamo in input livello_utente
+- se livello_utente > LIVELLO_ACCESSO allora
+    mandiamo in output "Accesso consentito"
 - altrimenti
-    mandiamo in output accesso_negato
+    mandiamo in output "Accesso negato"
 """
-
-# - settiamo le variabili LIVELLO_ACCESSO = 5
+# - impostiamo la costante LIVELLO_ACCESSO = 5
 LIVELLO_ACCESSO = 5
-# - chiediamo il livello dell'utente
+
+# - chiediamo in input livello_utente
 livello_utente = int(input("Inserisci il livello utente: "))
-# - se livello_utente > 5 allora
-     #mandiamo in output accessoConsentito
-if livello_utente > 5:
-    print ("Accesso consentito")
-# - altrimenti
-    #mandiamo in output accessoNegato
+
+# - se livello_utente > LIVELLO_ACCESSO allora "Accesso consentito"
+# NB: usiamo la costante e non il numero 5 scritto a mano: se domani il livello
+#     richiesto diventa 7, basta cambiare UNA sola riga in cima al programma.
+if livello_utente > LIVELLO_ACCESSO:
+    print("Accesso consentito")
+# - altrimenti "Accesso negato"
 else:
-    print ("Accesso negato")
+    print("Accesso negato")
