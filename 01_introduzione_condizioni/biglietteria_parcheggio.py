@@ -42,7 +42,7 @@ else:
     #cosa faccio se la condizione è falsa?
     prezzo_tot = PREZZO_PRIMAORA + PREZZO_ORA * (numero_ore - 1)
 # - mando in output il prezzoTot
-print(f"Il prezzo da pagare è: {prezzoTot} €")
+print(f"Il prezzo da pagare è: {prezzo_tot} €")
 
 
 
