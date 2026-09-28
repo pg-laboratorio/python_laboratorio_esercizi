@@ -12,38 +12,38 @@ DATI OUTPUT:
 - Prezzo totale da pagare (prezzo_tot)
 
 ALTRE VARIABILI:
-- COSTANTE prezzo prima ora (PREZZOPRIMAORA)
-- COSTANTE prezzo ore succevvive (PREZZOORA)
+- COSTANTE prezzo prima ora (PREZZO_PRIMA_ORA)
+- COSTANTE prezzo ore successive (PREZZO_ORA)
 
 PASSAGGI RISOLUTIVI:
-- settiamo le variabili costanti PREZZO_PRIMAORA=2.5 e PREZZO_ORA=1.5
+- impostiamo le costanti PREZZO_PRIMA_ORA = 2.5 e PREZZO_ORA = 1.5
 - chiediamo in input numero_ore
-- se il numero di ore <= 1 allora
-    il prezzo sarà 2.5
+- se numero_ore <= 1 allora
+    prezzo_tot = PREZZO_PRIMA_ORA
 - altrimenti
-    il prezzo sarà 2.5 + 1.5 * (numero_ore-1)
-- mando in output il prezzo_tot
+    prezzo_tot = PREZZO_PRIMA_ORA + PREZZO_ORA * (numero_ore - 1)
+- mandiamo in output prezzo_tot
 """
-# - settiamo le variabili costanti PREZZOPRIMAORA=2.5 e PREZZOORA=1.5
-PREZZO_PRIMAORA = 2.5
+# - impostiamo le costanti PREZZO_PRIMA_ORA = 2.5 e PREZZO_ORA = 1.5
+PREZZO_PRIMA_ORA = 2.5
 PREZZO_ORA = 1.5
-# - chiediamo in input numeroOre
-numero_ore = int(input("Inserisci il numero ore: "))
-# - se il numero di ore <= 1 allora
-#    il prezzo sarà PREZZO_PRIMAORA
-if numero_ore <= 1: #la mia condizione è numero_ore<=1
-    #cosa succede se la condizione è vera?
-    #ATTENTO! L'indentazione (Tab) è fondamentale!
-    #Questo rientro a destra del testo indica un blocco di codice!
-    prezzo_tot = PREZZO_PRIMAORA
-#- altrimenti
-#    il prezzo sarà PREZZOPRIMAORA + PREZZOORA * (numeroOre-1)
+
+# - chiediamo in input numero_ore
+numero_ore = int(input("Inserisci il numero di ore: "))
+
+# - se numero_ore <= 1 allora prezzo_tot = PREZZO_PRIMA_ORA
+if numero_ore <= 1:  # la condizione è: numero_ore <= 1
+    # Cosa succede se la condizione è VERA?
+    # ATTENZIONE! L'indentazione è fondamentale: il rientro di 4 spazi
+    # (il tasto Tab dell'editor di solito li inserisce in automatico)
+    # indica che queste righe formano un BLOCCO di codice dentro l'if.
+    prezzo_tot = PREZZO_PRIMA_ORA
+# - altrimenti prezzo_tot = PREZZO_PRIMA_ORA + PREZZO_ORA * (numero_ore - 1)
 else:
-    #cosa faccio se la condizione è falsa?
-    prezzo_tot = PREZZO_PRIMAORA + PREZZO_ORA * (numero_ore - 1)
-# - mando in output il prezzoTot
-print(f"Il prezzo da pagare è: {prezzo_tot} €")
+    # Cosa succede se la condizione è FALSA?
+    prezzo_tot = PREZZO_PRIMA_ORA + PREZZO_ORA * (numero_ore - 1)
 
-
-
-
+# - mandiamo in output prezzo_tot
+# NB: il nome della variabile deve essere IDENTICO a quello usato sopra
+#     (prezzo_tot e prezzoTot per Python sono due variabili diverse!)
+print(f"Il prezzo da pagare è: {prezzo_tot:.2f} €")
